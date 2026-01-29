@@ -8,7 +8,6 @@ vim.keymap.set("n", "D", "$", { desc = "Go to line end" })
 vim.keymap.set("n", "J", "5j", { desc = "Move down faster" })
 vim.keymap.set("n", "K", "5k", { desc = "Move up faster" })
 
-
 vim.keymap.set("n", "<leader>vs", ":vsplit<CR>", { desc = "Vertical split" })
 vim.keymap.set("n", "<leader>hs", ":split<CR>", { desc = "Horizontal split" })
 
@@ -54,3 +53,7 @@ vim.keymap.set("n", "<M-h>", ":vertical resize -2<CR>", { desc = "Resize left" }
 vim.keymap.set("n", "<M-l>", ":vertical resize +2<CR>", { desc = "Resize right" })
 vim.keymap.set("n", "<M-j>", ":resize -2<CR>", { desc = "Resize down" })
 vim.keymap.set("n", "<M-k>", ":resize +2<CR>", { desc = "Resize up" })
+
+vim.keymap.set("n", "<Tab>", ":BufferLineCycleNext<CR>")
+vim.keymap.set("n", "<S-Tab>", ":BufferLineCyclePrev<CR>")
+vim.keymap.set("n", "<leader>x", ":bd<CR>")
