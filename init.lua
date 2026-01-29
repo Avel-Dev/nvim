@@ -1,4 +1,3 @@
-
 -- ~/.config/nvim/init.lua
 
 -- Core editor configuration (options, keymaps, autocmds)

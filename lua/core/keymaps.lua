@@ -46,6 +46,7 @@ vim.keymap.set({ 'n', 'v' }, '<leader>y', '"+y') -- yank to clipboard
 vim.keymap.set({ 'n', 'v' }, '<leader>p', '"+p') -- paste from clipboard
 
 vim.keymap.set("n", "<leader>tt", ":belowright split | terminal<CR>", { silent = true })
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { silent = true })
 vim.keymap.set("n", "<leader>tv", ":vsplit | terminal<CR>", { silent = true })
 vim.keymap.set("n", "<leader>tT", ":tab terminal<CR>", { silent = true })
 
