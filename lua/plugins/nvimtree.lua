@@ -19,7 +19,6 @@ return {
           dotfiles = false,
         },
       })
-    end,
-  },
+    end
+  }
 }
-
